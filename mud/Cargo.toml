@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 configparser = "3.1.0"
+regex = "1.11.1"
+tokio = { version = "1", features =["full"] }
+uuid = { version = "1.16.0", features = ["v4", "rng-rand", "rng", "md5"] }
