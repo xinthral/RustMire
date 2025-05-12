@@ -8,3 +8,4 @@ pub fn create_mob() -> mobs::Mob {
   let level = 0;
   Mob::new(&name, &race, &class, level)
 }
+

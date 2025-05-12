@@ -15,4 +15,5 @@ fn main() {
   // let _ = launch_server();
   let critter = entities::create_mob();
   println!("{:?}", critter);
+  println!("{}", critter);
 }
